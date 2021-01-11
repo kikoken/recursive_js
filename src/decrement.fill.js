@@ -11,6 +11,6 @@ countDown(10)
 console.log(container)
 
 // ES6 solution
-const decrement = Array.from(Array(10), (_,x) => x + 1).reverse()
+const decrement = n => Array.from(Array(n), (_,x) => x + 1).reverse()
 
 console.log(decrement)

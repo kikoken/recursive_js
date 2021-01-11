@@ -4,7 +4,7 @@ const factorial = n => {
     return n * factorial(n-1)
 }
 
-console.log(factorial(100))
+//console.log(factorial(100))
 
 // ES6 clean syntax
 const factorialCal = n => (n === 0 || n === 1) ? 1 : factorialCal(n - 1) * n
@@ -28,4 +28,4 @@ const longFactorial = n => {
     
     return String(factorial)
 }
-//console.log(longFactorial(11))
+console.log(longFactorial(11))

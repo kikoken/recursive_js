@@ -13,7 +13,7 @@ const randomFillArray = () => {
     let num = Math.floor(Math.random()*100)
 
     if(container.length < min) {
-        if(!is_exist(num))
+        if(!container.includes(num))
             container.push(num)
         randomFillArray()
     }
